@@ -534,21 +534,4 @@ form.submitting .wpcf7-spinner {
     .action-btn:active img{
         transform: scale(1.10);
     }
-body.custom-background {
-    background-image: url("images/bg.webp");
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-/* Mobile */
-@media (max-width: 767px){
-
-    body.custom-background{
-        background-attachment: scroll;
-        background-position: center top;
-    }
-
-}
 }
