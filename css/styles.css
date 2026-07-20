@@ -535,3 +535,34 @@ form.submitting .wpcf7-spinner {
         transform: scale(1.10);
     }
 }
+<style type="text/css" id="custom-background-css">
+
+/* ===========================
+   Desktop Background
+=========================== */
+
+body.custom-background{
+    background-image: url("images/bg.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ===========================
+   Mobile Background
+=========================== */
+
+@media (max-width: 767px){
+
+    body.custom-background{
+        background-image: url("images/bgmob.webp");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+}
+
+</style>
